@@ -14,3 +14,12 @@ print("4 :",len(t))
 # prints length of tuple
 
 # operations that perform changes are invalid for tuple
+
+
+
+'''OUTPUT
+1 : (1, 2, 89, 78)
+2 : 1
+3 : 2
+4 : 4
+'''
