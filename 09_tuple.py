@@ -42,3 +42,20 @@ print("11 :",t[-4:])
 print("12 :",t[:-1])
 # prints all elements from first index to last index except last element
 # the above are same for string, list, tuples
+
+
+
+'''OUTPUT
+1  : ()
+2  : 1
+3  : (1,)
+4  : (1, 2, 89, 78)
+5  : 1
+6  : (1, 2, 89)
+7  : (1, 2, 89, 78)
+8  : (1, 2, 89)
+9  : 78
+10 : (1, 2, 89)
+11 : (1, 2, 89, 78)
+12 : (1, 2, 89)
+'''
