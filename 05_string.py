@@ -36,7 +36,6 @@ print("7 :",name[:4])
 
 
 
-
 '''OUTPUT
 1 : L
 2 : Kar
