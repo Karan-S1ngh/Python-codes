@@ -8,7 +8,6 @@ print("Average of two number is :", (a+b)/2)
 
 
 
-
 '''OUTPUT
 Enter first number : 5
 Enter second number : 6
