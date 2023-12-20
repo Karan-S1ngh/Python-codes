@@ -15,5 +15,13 @@ print("2 :",type(a))
 
 a = set()           
 # This will create empty set
-print("2 :",type(a))      
+print("3 :",type(a))      
 # This eill print type as set
+
+
+
+'''OUTPUT
+1 : <class 'set'>
+2 : <class 'dict'>
+3 : <class 'set'>
+'''
