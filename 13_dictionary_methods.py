@@ -42,3 +42,21 @@ print("13 :",d.setdefault(22, 'ball'))
 # Returns the value of key '22' if present else sets the value as 'ball' for key '22' and returns the value
 
 # For more methods visit python.docs
+
+
+
+'''OUTPUT
+1  : dict_keys([1, 22, 'cde', 'd', 'e'])
+2  : <class 'dict_keys'>
+3  : [1, 22, 'cde', 'd', 'e']
+4  : dict_values(['apple', 'ball', 'cat', 4, {'Test': 345}])
+5  : dict_items([(1, 'apple'), (22, 'ball'), ('cde', 'cat'), ('d', 4), ('e', {'Test': 345})])
+6  : ball
+7  : ball
+8  : ('e', {'Test': 345})
+9  : None
+10 : {1: 'apple', 22: 'ball', 'cde': 'cat', 'd': 4, 'e': {'Test': 345}}
+11 : {1: 'apple', 22: 'ball', 'cde': 'cat', 'd': 4, 'e': {'Test': 345}, 'xyz': 'dog', 'qwe': 489, 'ejg': ['Exam', 987]}
+12 : {1: 'apple', 'e': 'apple', 3: 'apple'}
+13 : ball
+'''
