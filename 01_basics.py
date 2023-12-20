@@ -5,9 +5,9 @@
 ''' This is a 
 multi line comment'''
 
-print("Hello")    # we use "" if we have '' in the string
+print("1  : Hello")    # we use "" if we have '' in the string
 
-print('''Hi
+print('''2  : Hi
 How are you''')
 # prints multiple line
 
@@ -22,27 +22,52 @@ g = None
 h = False
 # no need to specify datatype, python automatically decides the correct datatype
 
-print(type(a),type(e))
+print("3  :",type(a),type(e))
 # prints the type of variable
 
-print("Value of 6+4 is", 10)
-print("Value of 5+4 is", 5+4)
+print("4  : Value of 6+4 is", 10)
+print("5  : Value of 5+4 is", 5+4)
  
-print(14>7)     # will print true if correct and false if incorrect
+print("6  :",14>7)     # will print true if correct and false if incorrect
 
-print(not h, f and h, f or h, f and g, h and g, f or g, h or g, not h)  
-# Logical operation not,and,or(True, False, True, None, False, True, None, True)
+# Logical operation not,and,or
+print("7  :",not h)
+print("8  :",not g)
+print("9  :",not f) 
+print("10 :",f and h) 
+print("11 :",f or h)     
+print("12 :",f and g)
+print("13 :",f or g)
+print("14 :",h and g)   
+print("15 :",h or g)   
 
-print(int(e))   # typecasting
-print(int("33"))       # string to integer
-print(float(45))       # int to float
+print("16 :",int(e))   # typecasting
+print("17 :",int("33"))       # string to integer
+print("18 :",float(45))       # int to float
 
 i = input("Enter your name : ")           # Takes input and stores in variable 'i' 
-print(i)
-print(type(i))
+print("19 : Name is ",i)
+print("20 :",type(i))
 # It stores the input taken in form of a string
-i = str(i)       #this makes the input i to be string only
-i = int(i)       #this makes the input i to be int only   
+
+# i = int(i)       
+# This makes the input i to be int only
+
+# int('32') = 32
+# String to int conversion
+
+# str(32) = "32"
+# Int to string conversion
+
+# float(32) = 32.0
+# Int to float conversion
+
+# float('32') = 32.0
+# String to float conversion
+
+# str(32.0) = "32.0"
+# Float to string converson 
+
 
 # \n for new line
 # \t for printing tab
@@ -51,3 +76,30 @@ i = int(i)       #this makes the input i to be int only
 # \\ for \
 # \b for backspace
  
+ 
+
+
+''' OUTPUT
+1  : Hello
+2  : Hi
+How are you
+3  : <class 'str'> <class 'float'>
+4  : Value of 6+4 is 10
+5  : Value of 5+4 is 9
+6  : True
+7  : True
+8  : True
+9  : False
+10 : False
+11 : True
+12 : None
+13 : True
+14 : False
+15 : None
+16 : 9
+17 : 33
+18 : 45.0
+Enter your name : Karan
+19 : Name is  Karan
+20 : <class 'str'>
+'''
