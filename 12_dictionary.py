@@ -35,6 +35,7 @@ print("12 :",d)
 
 
 
+
 '''OUTPUT
 1  : {}
 2  : <class 'dict'>
