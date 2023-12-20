@@ -21,7 +21,7 @@ print("Options are :",list(d.keys()))
 
 a = input("Enter the Hindi word : ")
 # Takes input from user
-print(d.get(a))
+print("English word for",a,"is :",d.get(a))
 
 
 
@@ -29,9 +29,9 @@ print(d.get(a))
 '''OUTPUT
 Options are : ['pankha', 'aam', 'gadi', 'bhains', 'kutta', 'billi', 'kela', 'kamra', 'kursi', 'kagaz', 'kalam', 'kitaab', 'chandi']
 Enter the Hindi word : kalam
-pen
+English word for kalam is : pen
 
 Options are : ['pankha', 'aam', 'gadi', 'bhains', 'kutta', 'billi', 'kela', 'kamra', 'kursi', 'kagaz', 'kalam', 'kitaab', 'chandi']
 Enter the Hindi word : aam
-mango
+English word for aam is : mango
 '''
