@@ -41,7 +41,7 @@ print("13 :",f or g)
 print("14 :",h and g)   
 print("15 :",h or g)   
 
-print("16 :",int(e))   # typecasting
+print("16 :",int(e))          # typecasting
 print("17 :",int("33"))       # string to integer
 print("18 :",float(45))       # int to float
 
@@ -67,6 +67,15 @@ print("20 :",type(i))
 
 # str(32.0) = "32.0"
 # Float to string converson 
+
+# Can also print mathematical functions
+import math
+print("21 :",math.sin(90))         # prints value of sin 90 in radian
+print("22 :",math.pi)              # prints value of pi upto certain decimal points
+print("23 :",math.e)               # prints value of e upto certain decimal points
+print("24 :",math.sqrt(25))        # prints square root of 5
+print("25 :",math.log2(10))        # prints value of log of 10 to the base 2
+print("26 :",math.factorial(5))    # prints factorial of 5
 
 
 # \n for new line
@@ -99,7 +108,13 @@ How are you
 16 : 9
 17 : 33
 18 : 45.0
-Enter your name : Karan
+Enter your name : Karan 
 19 : Name is  Karan
 20 : <class 'str'>
+21 : 0.8939966636005579
+22 : 3.141592653589793
+23 : 2.718281828459045
+24 : 5.0
+25 : 3.321928094887362
+26 : 120
 '''
