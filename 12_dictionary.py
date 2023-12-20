@@ -32,3 +32,20 @@ d = {1: 'apple', 22: 'ball', 'cde': 'cat', 'd': 4, 'e': {'Test': 345}}
 print("11 :",d)
 d[1] = {1,2,3}          # changes the value of key '1'
 print("12 :",d)
+
+
+
+'''OUTPUT
+1  : {}
+2  : <class 'dict'>
+3  : {1: 'apple', 22: 'ball', 'cde': 'cat', 'd': 4, 'e': {'Test': 345}}
+4  : ball
+5  : 4
+6  : {'Test': 345}
+7  : 345
+8  : {1: 'apple', 22: 'ball', 'cde': 'cat', 'd': 4, 'e': {'Test': 345}}
+9  : {'a': 1, 'b': 2, 'c': 3}
+10 : {1: 'apple', 22: 'ball', 'cde': 'cat', 'd': 4, 'e': {'Test': 345}}
+11 : {1: 'apple', 22: 'ball', 'cde': 'cat', 'd': 4, 'e': {'Test': 345}}
+12 : {1: {1, 2, 3}, 22: 'ball', 'cde': 'cat', 'd': 4, 'e': {'Test': 345}}
+'''
