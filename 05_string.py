@@ -33,3 +33,16 @@ print("6 :",name[1:])
 name = 'Shree'
 print("7 :",name[:4])
 # prints character from first index till 4th index
+
+
+
+
+'''OUTPUT
+1 : L
+2 : Kar
+3 : a
+4 : Hr
+5 : aisee
+6 : ari
+7 : Shre
+'''
