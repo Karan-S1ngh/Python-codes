@@ -30,3 +30,17 @@ new = 'hello "insert_name", how are u'
 trying = input("Enter name : ")
 new = new.replace('insert_name',trying)
 print("7 :",new)
+
+
+
+
+'''OUTPUT
+1 : 17
+2 : False
+3 : 2
+4 : Hello how are u
+5 : 2
+6 : hemo how are u
+Enter name : Karan
+7 : hello "Karan", how are u
+'''
