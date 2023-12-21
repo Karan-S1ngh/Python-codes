@@ -31,6 +31,9 @@ print("5  : Value of 5+4 is", 5+4)
 print("6  :",14>7)     # will print true if correct and false if incorrect
 
 # Logical operation not,and,or
+# and = true if both operands are true else false
+# or = true if any one operand is true else false
+# not = true if operand is false else true
 print("7  :",not h)
 print("8  :",not g)
 print("9  :",not f) 
