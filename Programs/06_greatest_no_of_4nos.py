@@ -11,28 +11,28 @@ d = int(input("Enter 4th number : "))
 if (a > b):
     if (a > c):
         if (a > d):
-            print("1st number is greatest")
+            print("1 : 1st number is greatest")
         else:
-            print("4th number is greatest")
+            print("1 : 4th number is greatest")
     else:
         if (c > d):
-            print("3rd number is greatest")
+            print("1 : 3rd number is greatest")
         else:
-            print("4th number is greatest")
+            print("1 : 4th number is greatest")
 else:
     if (b > c):
         if (b > d):
-            print("2nd number is greatest")
+            print("1 : 2nd number is greatest")
         else:
-            print("4th number is greatest")
+            print("1 : 4th number is greatest")
     else:
         if (c > d):
-            print("3rd number is greatest")
+            print("1 : 3rd number is greatest")
         else:
-            print("4th number is greatest")
+            print("1 : 4th number is greatest")
 
 
-# Second method            
+# Second method (easier way)           
 if(a>b):
     f1 = a
 else:
@@ -44,9 +44,9 @@ else:
     f2 = d
     
 if(f1>f2):
-    print(f1,"is greatest")
+    print("2 :",f1,"is greatest")
 else:
-    print(f2,"is greatest")
+    print("2 :",f2,"is greatest")
     
 
 
@@ -56,6 +56,6 @@ Enter 1st number : 5
 Enter 2nd number : 6
 Enter 3rd number : 4
 Enter 4th number : 1
-2nd number is greatest
-6 is greatest
+1 : 2nd number is greatest
+2 : 6 is greatest
 '''
