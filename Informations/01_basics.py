@@ -81,6 +81,10 @@ print("25 :",math.log2(10))        # prints value of log of 10 to the base 2
 print("26 :",math.factorial(5))    # prints factorial of 5
 
 
+# f is used if u dont want to indicate string everytime differently while printing
+# f is used to print the value of variable in the string
+print(f"27 : Sum of {3} and {4} is {3+4}")
+
 # \n for new line
 # \t for printing tab
 # \' for '
@@ -120,4 +124,5 @@ Enter your name : Karan
 24 : 5.0
 25 : 3.321928094887362
 26 : 120
+27 : Sum of 3 and 4 is 7
 '''
