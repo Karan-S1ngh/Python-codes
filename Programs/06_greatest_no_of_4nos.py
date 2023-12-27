@@ -32,21 +32,24 @@ else:
             print("1 : 4th number is greatest")
 
 
-# Second method (easier way)           
-if(a>b):
-    f1 = a
-else:
-    f1 = b
-    
-if(c>d):
-    f2 = c
-else:
-    f2 = d
-    
-if(f1>f2):
-    print("2 :",f1,"is greatest")
-else:
-    print("2 :",f2,"is greatest")
+# Second method (easier way)
+def greatest():           
+    if(a>b):
+        f1 = a
+    else:
+        f1 = b
+        
+    if(c>d):
+        f2 = c
+    else:
+        f2 = d
+        
+    if(f1>f2):
+        return f1
+    else:
+        return f2
+# if we dont use function then also ok just remove def greatest and use print instead of return in the program
+print(f"2 : {greatest()} is greatest")
     
 
 

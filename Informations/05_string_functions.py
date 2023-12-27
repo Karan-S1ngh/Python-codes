@@ -31,6 +31,13 @@ trying = input("Enter name : ")
 new = new.replace('insert_name',trying)
 print("7 :",new)
 
+n = '    Hello,   I am    Karan    '
+print("8 :",n)
+print("9 :",n.strip())
+# strip removes the extra spaces from both side 
+# rstrip removes the extra spaces from right side
+# lstrip removes the extra spaces from left side
+
 
 
 
@@ -43,4 +50,6 @@ print("7 :",new)
 6 : hemo how are u
 Enter name : Karan
 7 : hello "Karan", how are u
+8 :     Hello,   I am    Karan
+9 : Hello,   I am    Karan
 '''

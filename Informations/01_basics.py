@@ -2,6 +2,9 @@
 
 # This is a single line comment 
 
+print()
+# prints a blank line
+
 ''' This is a 
 multi line comment'''
 
@@ -85,6 +88,19 @@ print("26 :",math.factorial(5))    # prints factorial of 5
 # f is used to print the value of variable in the string
 print(f"27 : Sum of {3} and {4} is {3+4}")
 
+
+# By default new line is printed at the end of print statement
+# To avoid this, use end="" in print statement
+print("28 : Hello ", end="")
+print("29 : Hi")
+print("30 : How are you")
+
+
+import random
+random.randint(1,4)
+# prints random integer between 1 and 4
+
+
 # \n for new line
 # \t for printing tab
 # \' for '
@@ -125,4 +141,6 @@ Enter your name : Karan
 25 : 3.321928094887362
 26 : 120
 27 : Sum of 3 and 4 is 7
+28 : Hello 29 : Hi
+30 : How are you
 '''
