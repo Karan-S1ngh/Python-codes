@@ -66,6 +66,9 @@ print()
 print("Thanks for playing!")
 print()
 
+
+
+# Description
 # First we intialised a function containing game logic
 # Then we intialised a function containing main program
 # Then we used while loop to ask user to continue or stop and used the main program function in it and 
