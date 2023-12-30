@@ -46,6 +46,10 @@ c = [1,2,[3,4,5],6]
 c[2][1] = 9
 print("15 :",c)
 
+# Taking list input from user
+a = input("Enter the list(separated by comma) : ").split(",")
+# if u dont mention split then all will be considered a single input
+print("16 :",a)
 
 
 
@@ -65,4 +69,6 @@ print("15 :",c)
 13 : [1, 2, [3, 4, 5], 6]
 14 : [3, 4, 5]
 15 : [1, 2, [3, 9, 5], 6]
+Enter the list(separated by comma) : 2,29,karan,t
+16 : ['2', '29', 'karan', 't']
 '''

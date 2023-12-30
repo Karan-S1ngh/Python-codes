@@ -10,7 +10,7 @@ c = int(input("Enter the number till which u want each number's table : "))
 
 import os
 os.chdir("Files")
-# changes the directory to Files
+# changes the directory to 'Files'
 os.mkdir("Tables")
 # makes a table folder in the directory
 
