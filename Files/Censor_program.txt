@@ -1,0 +1,3 @@
+This is a sample to test censoring in a file
+
+*#%#* is the word I want to censor
