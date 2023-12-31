@@ -1,0 +1,6 @@
+This is a sample 
+for line number checking program
+Hello
+its sunny 
+how are you
+today is a good day

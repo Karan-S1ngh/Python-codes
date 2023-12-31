@@ -38,6 +38,16 @@ f.read()
 # This will read the whole file
 # if we use this after f.read(5) then it will read the remaining characters of the file
 
+f.readlines()
+# This will read all the lines of the file and will store them in a list
+# so we can use for loop to print all the lines of the file
+# each line is stored as a string in the list
+# each line is separated by \n
+# \n is not considered as a character in the string
+# \n is considered as a character in the list
+# \n is considered as a character in the file
+# \n is considered as a character in the print statement
+
 f.close()
 # closes the file 
 # always use this at the end of printing file operations
@@ -62,8 +72,6 @@ f.close()
 
 f = open('Files/read_function_sample.txt','r')
 print("5 :")
-# f.readlines() will read all lines and will store them in a list
-# so we can use for loop to print all the lines of the file
 for line in f.readlines():
     print(line)
 # this will print all the lines of the file

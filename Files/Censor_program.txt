@@ -1,4 +1,4 @@
-This is a sample to test censoring in a file
+this is a sample to test censoring in a file
 
-*#%#* is the word I want to censor
+*#%#* is the word i want to censor
 *#%#* is also the word to be consored

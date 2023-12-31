@@ -1,0 +1,3 @@
+This is file for make_copy_of_file.py 
+It is for program to create exact copy of a file using method 1
+read() and write() methods are used here 
