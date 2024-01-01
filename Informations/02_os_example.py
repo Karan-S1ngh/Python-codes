@@ -12,3 +12,7 @@ os.chdir("Files")
 
 os.mkdir("Test")
 # makes a new folder in the directory(here, Test)
+
+
+os.remove("Test.txt")
+# deletes a file (here, Test)

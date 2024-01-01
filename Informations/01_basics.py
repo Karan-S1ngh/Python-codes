@@ -14,6 +14,12 @@ print('''2  : Hi
 How are you''')
 # prints multiple line
 
+'''
+PascalCase and camelCase are two types of methods to represent a variable,etc
+PascalCase = First letter of every word is capital
+camelCase = First letter of every word except first word is capital
+'''
+
 a = "Karan"
 b = 'Singh'
 c = '''Karan 

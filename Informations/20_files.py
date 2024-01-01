@@ -103,6 +103,12 @@ with open('Files/with_statement_sample.txt','r') as f:
 # no need to use f.close() here
 
 
+# Renaming a file
+# to rename a file you can create a another file  
+# copy all the contents of old file into the new file 
+# then using os.remove("old_file.file_type") remove the old file
+
+
 
 
 '''OUTPUT
