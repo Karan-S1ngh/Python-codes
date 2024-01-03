@@ -60,15 +60,15 @@ ExampleTwo.second()                 # will not give error
 
 n = ''     
 class ExampleThree:
-    def third(self):
-        print("3  : Hola")
+    def third(self,greeting):
+        print(f"3  : {greeting}")
     n
-    third(n)                        # will not give error
-#   third()                         # will give error
+    third(n,'Hola')                         # will not give error
+#   third('Hola')                           # will give error
         
 class ExampleFour:
     def fourth():
-        print("4 : Namaste")
+        print("4  : Namaste")
     fourth()                        # will not give error
     n
 #   fourth(n)                       # will give error

@@ -2,17 +2,18 @@
 
 # This is a single line comment 
 
-print()
-# prints a blank line
-
 ''' This is a 
 multi line comment'''
 
 print("1  : Hello")    # we use "" if we have '' in the string
 
+
 print('''2  : Hi
 How are you''')
 # prints multiple line
+
+print()
+# prints a blank line
 
 '''
 PascalCase and camelCase are two types of methods to represent a variable,etc
@@ -97,7 +98,7 @@ print(f"27 : Sum of {3} and {4} is {3+4}")
 
 # By default new line is printed at the end of print statement
 # To avoid this, use end="" in print statement
-print("28 : Hello ", end="")
+print("28 : Hello    ", end="")
 print("29 : Hi")
 print("30 : How are you")
 
@@ -121,6 +122,7 @@ random.randint(1,4)
 1  : Hello
 2  : Hi
 How are you
+
 3  : <class 'str'> <class 'float'>
 4  : Value of 6+4 is 10
 5  : Value of 5+4 is 9
@@ -137,7 +139,7 @@ How are you
 16 : 9
 17 : 33
 18 : 45.0
-Enter your name : Karan 
+Enter your name : Karan
 19 : Name is  Karan
 20 : <class 'str'>
 21 : 0.8939966636005579
@@ -147,6 +149,6 @@ Enter your name : Karan
 25 : 3.321928094887362
 26 : 120
 27 : Sum of 3 and 4 is 7
-28 : Hello 29 : Hi
+28 : Hello    29 : Hi
 30 : How are you
 '''
