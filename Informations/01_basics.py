@@ -104,8 +104,12 @@ print("30 : How are you")
 
 
 import random
-random.randint(1,4)
+n = random.randint(1,4)
 # prints random integer between 1 and 4
+
+# to print power of a number we use **
+print("31 : 2 raised to power 3 is equal to ",2**3)
+# prints 2 to the power 3
 
 
 # \n for new line
@@ -151,4 +155,5 @@ Enter your name : Karan
 27 : Sum of 3 and 4 is 7
 28 : Hello    29 : Hi
 30 : How are you
+31 : 2 raised to power 3 is equal to  8
 '''
