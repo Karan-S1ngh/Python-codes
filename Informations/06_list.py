@@ -19,7 +19,7 @@ b = [1,2,'Karan',9.8,True]
 # here everything we did with string in respect to slicing is applicable
 # [:3], [1:], [-4:-1] are all valid
 print("5  :",b[0])
-# prints 0th element of tuple
+# prints 0th element of list
 print("6  :",b[0:3])
 # prints all elements from 0th index to 2nd index
 print("7  :",b[0:])
@@ -27,7 +27,7 @@ print("7  :",b[0:])
 print("8  :",b[:3])
 # prints all elements from first index to 2nd index
 print("9  :",b[-1])
-# prints last element of tuple
+# prints last element of list
 print("10 :",b[-4:-1])
 # prints all elements from 4th last index to 2nd last index
 print("11 :",b[-4:])

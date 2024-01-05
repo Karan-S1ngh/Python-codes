@@ -77,6 +77,9 @@ class ExampleFour:
 # while passing using object to call method object.method is converted to class.method(object)
 
 
+# instead of self u can use anything else to using self is desired
+
+
 
 
 '''OUTPUT
