@@ -18,11 +18,19 @@ class Complex:
         return Complex(self.real / other.real, self.imaginary / other.imaginary)
 
     def __str__(self):
-        return f"{self.real} + {self.imaginary}i"
+        if self.imaginary < 0:
+            return f"{self.real} - {-self.imaginary}i"
+        else:   
+            return f"{self.real} + {self.imaginary}i"
     
 
 c1 = Complex(2, 3)
 c2 = Complex(4, 5)
+
+print(f"First complex number = {c1}")
+print(f"Second complex number = {c2}")
+# calling __str__ method by printing object
+print()
 
 print("0.Exit, 1.Addition, 2.Subtraction, 3.Multiplication, 4.Division")
 print()
@@ -52,6 +60,9 @@ while True:
 
  
 '''OUTPUT
+First complex number = 2 + 3i
+Second complex number = 4 + 5i
+
 0.Exit, 1.Addition, 2.Subtraction, 3.Multiplication, 4.Division
 
 Enter your choice : 5
@@ -61,7 +72,7 @@ Enter your choice : 1
 Addition = 6 + 8i
 
 Enter your choice : 2
-Subtraction = -2 + -2i
+Subtraction = -2 - 2i
 
 Enter your choice : 3
 Multiplication = 8 + 15i
