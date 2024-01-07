@@ -2,6 +2,12 @@
 # operators can be overloaded using dunder/magic(__name__) methods [Eg, __init__ , __class__ are an example of dunder method]
 # These methods are called when a given operator is used on the objects
 
+# operators in python can be overloaded using following methods
+# __add__(self, other) : Addition of two objects
+# __sub__(self, other) : Subtraction of two objects
+# __mul__(self, other) : Multiplication of two objects
+# __truediv__(self, other) : Division of two objects
+
 
 n1 = int(input("Enter First number : "))
 n2 = int(input("Enter Second number : "))
@@ -64,15 +70,11 @@ obj2 = c(20)
 print(f"6 : Is 10 greater than 20 from predefined numbers = {obj1 > obj2}")
 
 
-
 # operator overloading can be done similarly for subtraction, division, less than and equal to
 
 
-# operators in python can be overloaded using following methods
-# __add__(self, other) : Addition of two objects
-# __sub__(self, other) : Subtraction of two objects
-# __mul__(self, other) : Multiplication of two objects
-# __truediv__(self, other) : Division of two objects
+
+# some more operator overloading methods 
 # __floordiv__(self, other) : Floor division of two objects
 # __mod__(self, other) : Modulus of two objects
 # __pow__(self, other) : Exponentiation of two objects

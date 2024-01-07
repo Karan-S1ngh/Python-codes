@@ -107,9 +107,15 @@ import random
 n = random.randint(1,4)
 # prints random integer between 1 and 4
 
+
 # to print power of a number we use **
 print("31 : 2 raised to power 3 is equal to ",2**3)
 # prints 2 to the power 3
+
+
+# floor division
+# prints integer value of division
+print("32 : Floor division of 9 by 2 is",9//2)
 
 
 # \n for new line
@@ -156,4 +162,5 @@ Enter your name : Karan
 28 : Hello    29 : Hi
 30 : How are you
 31 : 2 raised to power 3 is equal to  8
+32 : Floor division of 9 by 2 is 4
 '''
