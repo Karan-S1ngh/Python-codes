@@ -95,6 +95,9 @@ print(f"6 : Is 10 greater than 20 from predefined numbers = {obj1 > obj2}")
 # __repr__(self) : Eval operator
 
 
+# refer python docs for more 
+
+
 
 
 '''OUTPUT
