@@ -1,4 +1,3 @@
-# Super keyword
 # super() keyword is used to call the methods of parent class
 
 
