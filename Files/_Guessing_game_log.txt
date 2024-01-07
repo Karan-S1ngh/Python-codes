@@ -1,0 +1,4 @@
+User guessed '43' in '4' guesses
+User guessed '58' in '5' guesses
+User guessed '80' in '4' guesses
+User guessed '43' in '6' guesses

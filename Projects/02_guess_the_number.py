@@ -6,6 +6,8 @@
 # user will keep on guessing until they have guessed the correct number 
 # computer also print in how many guesses the user has correctly guessed the number
 
+# user guesses will be stored in a txt file named _Guessing_game_log
+
 
 import random
 computer = random.randint(1,100)
@@ -30,25 +32,29 @@ while user != computer:
     print()
 
 
+with open("Files/_Guessing_game_log.txt", "a") as f:
+    f.write(f"User guessed '{user}' in '{count}' guesses\n")
+    
+print("Your guess has been recorded")
+
+
 
 
 '''OUTPUT
 Welcome to the Guessing Game
 
-Guess the number: 56
+Guess the number: 50
+You guessed it wrong! Enter a larger number
+
+Guess the number: 75
+You guessed it wrong! Enter a larger number
+
+Guess the number: 86
 You guessed it wrong! Enter a smaller number
 
-Guess the number: 67
-You guessed it wrong! Enter a smaller number
-
-Guess the number: 78
-You guessed it wrong! Enter a smaller number
-
-Guess the number: 45
-You guessed it wrong! Enter a smaller number
-
-Guess the number: 34
+Guess the number: 80
 You guessed it right!
-You took '5' guesses to guess the number '34'
+You took '4' guesses to guess the number '80'
 
+Your guess has been recorded
 '''
