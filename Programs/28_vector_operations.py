@@ -70,7 +70,7 @@ print(f"First vector = {v1}")
 print(f"Second vector = {v2}")
 print()
 
-print("0.Exit, 1.Addition, 2.Subtraction, 3.Dot Product, 4.Cross Product, 5.Division")
+print("0.Exit, 1.Addition, 2.Subtraction, 3.Dot Product, 4.Cross Product, 5.Division, 6.Length")
 print()
 
 while True:
@@ -88,6 +88,9 @@ while True:
         print(f"Cross Product = {v1.cross(v2)}")
     elif choice == 5:        
         print(f"Division = {v1 / v2}")
+    elif choice == 6:
+        print(f"Length of first vector = {len(v1)}")
+        print(f"Length of second vector = {len(v2)}")
     else:
         print("Invalid Choice")
     print()
@@ -103,27 +106,31 @@ while True:
   
 '''OUTPUT
 First vector =  1a^0 + 2a^1 + 3a^2 
-Second vector =  4a^0 + 5a^1 + 6a^2
+Second vector =  4a^0 + 5a^1 + 6a^2 + 7a^3
 
-0.Exit, 1.Addition, 2.Subtraction, 3.Dot Product, 4.Cross Product, 5.Division
+0.Exit, 1.Addition, 2.Subtraction, 3.Dot Product, 4.Cross Product, 5.Division, 6.Length
 
-Enter your choice : 6
+Enter your choice : 7
 Invalid Choice
 
+Enter your choice : 6
+Length of first vector = 3
+Length of second vector = 4
+
 Enter your choice : 5
-Division =  0.25a^0 + 0.4a^1 + 0.5a^2
+Division = Division not possible
 
 Enter your choice : 4
-Cross Product =  -3a^0 + 6a^1 + -3a^2
+Cross Product = Cross product not possible
 
 Enter your choice : 3
-Dot Product =  4a^0 + 10a^1 + 18a^2
+Dot Product = Dot product not possible
 
 Enter your choice : 2
-Subtraction =  -3a^0 + -3a^1 + -3a^2
+Subtraction = Subtraction not possible
 
 Enter your choice : 1
-Addition =  5a^0 + 7a^1 + 9a^2
+Addition = Addition not possible
 
 Enter your choice : 0
 Ended
