@@ -106,7 +106,7 @@ while True:
   
 '''OUTPUT
 First vector =  1a^0 + 2a^1 + 3a^2 
-Second vector =  4a^0 + 5a^1 + 6a^2 + 7a^3
+Second vector =  4a^0 + 5a^1 + 6a^2 
 
 0.Exit, 1.Addition, 2.Subtraction, 3.Dot Product, 4.Cross Product, 5.Division, 6.Length
 
@@ -115,22 +115,22 @@ Invalid Choice
 
 Enter your choice : 6
 Length of first vector = 3
-Length of second vector = 4
+Length of second vector = 3
 
 Enter your choice : 5
-Division = Division not possible
+Division =  0.25a^0 + 0.4a^1 + 0.5a^2
 
 Enter your choice : 4
-Cross Product = Cross product not possible
+Cross Product =  -3a^0 + 6a^1 + -3a^2
 
 Enter your choice : 3
-Dot Product = Dot product not possible
+Dot Product =  4a^0 + 10a^1 + 18a^2
 
 Enter your choice : 2
-Subtraction = Subtraction not possible
+Subtraction =  -3a^0 + -3a^1 + -3a^2
 
 Enter your choice : 1
-Addition = Addition not possible
+Addition =  5a^0 + 7a^1 + 9a^2
 
 Enter your choice : 0
 Ended
