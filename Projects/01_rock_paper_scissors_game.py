@@ -75,6 +75,9 @@ print()
 # Then we used if else statement in the while loop to break the loop if user wants to stop
 
 
+# in this instead of contiuning the game till user ending, we can create a file and store all the data of each game in it
+# we can also do the combination of both
+
 
 
 
