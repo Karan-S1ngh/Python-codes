@@ -71,6 +71,8 @@ print()
 # finally block will be executed no matter what
 # if there is error or no error finally block will be executed
 # finally block is used for closing files or closing database connections
+# no matter anything even if we use a function to exit program execution in except block
+# finally block will be executed for cleaning(like closing files, database closure, etc)
 print("4 :")
 try:
     a = int('ABC')
