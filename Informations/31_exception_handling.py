@@ -81,6 +81,9 @@ except Exception as e:
     print("Error occured")
 finally:
     print("Finally block executed")
+# we are using finally instead of directly printing bcz finally will run no matter what even if program is exited 
+# so we can use it for cleaning
+# but normal print wont run after exiting
 
 
 
