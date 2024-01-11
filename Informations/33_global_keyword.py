@@ -7,9 +7,12 @@ def func():
     global x
     x = 10
     print(x)
-    
+
+# printing x will give error as there is no global definition of it yet
+ 
 print("1 : ",end="")
 func()
+# function is called and x is defined as global variable inside the function
 
 print("2 :",x)
 # if we hadnt define global x then print(x) would have given error
@@ -37,18 +40,20 @@ print()
 x = 78
 def func():
     global x
+    print("6 :",x)
     x = 80
-    print(x)
+    print("7 :",x)
     
 print("5 :",x)
 # global variable will be printed since function is not called
 
-print("6 : ",end="")
 func()
-# function is called so class variable will be printed
-# but x here is defined as global x so x value globally will be changed to class variable 78 instead of its defined value 80
+# there are two print statement in function
+# first print statement will print the value of x globally (78)
+# second print statement will print the value of x locally (80) as x is being defined global in this class 
+# so x global definition changes to 80 from 78
 
-print("7 :",x)
+print("8 :",x)
 # 80(class variable) will be printed as when function is called x value in function is defined as global
 # so the value of x globally will be changed to 78(class variable) instead of its defined value 80
 # so instead of 78, 80 is printed
@@ -64,6 +69,7 @@ print("7 :",x)
 4 : 38
 
 5 : 78
-6 : 80
+6 : 78
 7 : 80
+8 : 80
 '''
