@@ -6,8 +6,11 @@
 # Use for loop to print content of a list
 fruits = ["apple", "banana", "cherry"]
 print("'1' :")
+index = 0
 for item in fruits:
-    print(item)
+    print(item,"[",index,"]")
+    # prints item with its index
+    index += 1
 # We can also print contents of tuple, set and dictionary like this
 
 # Use for loop to print content of a string
@@ -59,9 +62,9 @@ else:
 
 '''OUTPUT
 '1' :
-apple
-banana
-cherry
+apple [ 0 ]
+banana [ 1 ]
+cherry [ 2 ]
 '2' :
 H
 a
