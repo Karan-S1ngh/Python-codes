@@ -7,13 +7,14 @@
 # Return Type: an enumerate object
 
 
-# Example 1
+# Method 1
 l1 = ["eat","sleep","repeat"]
 s1 = "geek"
 
 # creating enumerate objects
 obj1 = enumerate(l1)
 obj2 = enumerate(s1)
+# its ok even if not created
 
 print("1 : Return type =",type(obj1))
 print()
@@ -28,7 +29,8 @@ print("3 :",list(enumerate(s1,2)))
 print()
 
 
-# Example 2
+# Method 2
+# More Preferable method
 # Python program to illustrate
 # enumerate function in loops
 l1 = ["eat","sleep","repeat"]
@@ -42,10 +44,14 @@ print()
 
 
 # changing index and printing separately
+# index is mentioned first then the item
 print("5 :")
 for count,l in enumerate(l1,100):
     print(count,l)
 # prints the elements in separate lines with each having index starting from 100
+
+
+# Second method is better
 
 
 
