@@ -43,6 +43,8 @@ print("12 :",t[:-1])
 # prints all elements from first index to last index except last element
 # the above are same for string, list, tuples
 
+print("13 :",type(t))
+
 
 
 
@@ -59,4 +61,5 @@ print("12 :",t[:-1])
 10 : (1, 2, 89)
 11 : (1, 2, 89, 78)
 12 : (1, 2, 89)
+13 : <class 'tuple'>
 '''
