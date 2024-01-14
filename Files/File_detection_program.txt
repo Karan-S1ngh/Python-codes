@@ -1,0 +1,2 @@
+This is a txt file for file detection program
+It checks if a file is present in 'Files' Directory or not
