@@ -46,6 +46,5 @@ Enter number of rows: 3
 33333
  222
   1
-
 '''
     

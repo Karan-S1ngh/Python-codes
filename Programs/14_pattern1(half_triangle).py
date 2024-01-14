@@ -52,5 +52,4 @@ Half triangle pattern of numbers in reverse order :
 333
 22
 1
-
 '''

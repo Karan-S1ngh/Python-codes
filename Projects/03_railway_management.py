@@ -69,7 +69,6 @@ train1.get_status()
 # for cancelling, user will be asked which seat to be cancelled and that seat will be cancelled 
 # if the seat number hasnt been booked or is invalid then nothing will happen
 # while booking again least index seat number will be given regardless of the seat numbers cancelled
-# 
 
 
 
