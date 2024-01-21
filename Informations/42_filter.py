@@ -20,11 +20,11 @@ l2 = []
 for item in l:
     if greater_than_5(item):
         l2.append(item)
-print(l2)
+print("1 :",l2)
 # using for loop
 
 # Method 2
-print(list(filter(greater_than_5, l)))
+print("2 :",list(filter(greater_than_5, l)))
 # using filter and typecasting it into list
 
 
@@ -32,13 +32,13 @@ print(list(filter(greater_than_5, l)))
 # Example 2
 g = lambda num : num>10
 l = [9, 7, 5, 14, 56, 78, 59, 90]
-print(list(filter(g, l)))
+print("3 :",list(filter(g, l)))
 
 
 
 
 '''OUTPUT
-[6, 7, 8, 9]
-[6, 7, 8, 9]
-[14, 56, 78, 59, 90]
+1 : [6, 7, 8, 9]
+2 : [6, 7, 8, 9]
+3 : [14, 56, 78, 59, 90]
 '''

@@ -16,11 +16,11 @@ l =[1, 2, 3]
 l2 = []
 for item in l:
     l2.append(square(item))
-print(l2)
+print("1 :",l2)
 # using for loop
 
 # Method 2
-print(list(map(square, l)))
+print("2 :",list(map(square, l)))
 # using map and typecasting it into list
 
 
@@ -28,13 +28,13 @@ print(list(map(square, l)))
 # Example 2
 g = lambda num : num*num*num
 l = [1, 2, 3]
-print(list(map(g, l)))
+print("3 :",list(map(g, l)))
 
 
 
 
 '''OUTPUT
-[1, 4, 9]
-[1, 4, 9]
-[1, 8, 27]
+1 : [1, 4, 9]
+2 : [1, 4, 9]
+3 : [1, 8, 27]
 '''    
