@@ -6,6 +6,7 @@
 # Syntax: map(function_to_apply, list_of_inputs)
 
 
+# Example 1
 def square(num):
     return num*num
 
@@ -24,8 +25,16 @@ print(list(map(square, l)))
 
 
 
+# Example 2
+g = lambda num : num*num*num
+l = [1, 2, 3]
+print(list(map(g, l)))
+
+
+
 
 '''OUTPUT
 [1, 4, 9]
 [1, 4, 9]
+[1, 8, 27]
 '''    

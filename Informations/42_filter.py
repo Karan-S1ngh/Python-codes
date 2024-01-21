@@ -6,6 +6,7 @@
 # Syntax: filter(function_to_apply, list_of_inputs)
 
 
+# Example 1
 def greater_than_5(num):
     if num > 5:
         return True
@@ -28,8 +29,16 @@ print(list(filter(greater_than_5, l)))
 
 
 
+# Example 2
+g = lambda num : num>10
+l = [9, 7, 5, 14, 56, 78, 59, 90]
+print(list(filter(g, l)))
+
+
+
 
 '''OUTPUT
 [6, 7, 8, 9]
 [6, 7, 8, 9]
+[14, 56, 78, 59, 90]
 '''
