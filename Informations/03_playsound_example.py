@@ -3,8 +3,8 @@
 # 'pip install playsound' write this in terminal to install playsound module using pip
 
 from playsound import playsound
-playsound("E:\\Whatsapp\\Mobile\\WhatsApp Audio\\Received\\AUD-20210406-WA0003.mp3")
+playsound("write the path of the sound u want to play")
 
-# Give double backslash not single in playsound
+# Give double backslash not single in playsound (while specifying path)
 
-# works only till python 3.9 but mine is 3.12.1
+# works only till python 3.9 but latest (at the time of making this file) is 3.12.1
