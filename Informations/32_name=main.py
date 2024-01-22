@@ -33,5 +33,3 @@ if __name__ == '__main__':
 ## print(__name__) 
 # This will give "file1" as an output
 # this is because the file is imported to another file, so __name__ is set to the name of the file
-
-

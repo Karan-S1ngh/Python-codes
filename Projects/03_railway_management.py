@@ -1,4 +1,4 @@
-# WAP for railway management 
+# Railway management System
 
 class Train:
     def __init__(self, name, fare, total_seats):
