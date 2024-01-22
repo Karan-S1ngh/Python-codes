@@ -14,20 +14,21 @@
 # This process continues till no more elements are left in the container.
 # The final returned result is returned and printed on console.
 
-# in short it adds the first two numbers
-# then adds the result of first two numbers with third number
-# and so on till there is no number left to add and prints the result
+# in short it checks the first two numbers for given condition
+# then checks the result of first two numbers with third number
+# and so on till there is no number left to check and then prints the result
+
+
+from functools import reduce
 
 
 # Example 1
-from functools import reduce
 def sum(a, b):
     return a+b
 
 l = [1, 2, 3, 4, 5]
 
 print("1 :",reduce(sum, l))
-# using reduce
 
 
 
@@ -38,8 +39,17 @@ print("2 :",reduce(g, l))
 
 
 
+# Example 3
+# using reduce to compute maximum element from list
+l = [4, 6, 3, 9, 2, 11, 56, 5]
+a = reduce(max,l)
+print("3 :",a)
+
+
+
 
 '''OUTPUT
 1 : 15
 2 : 120
+3 : 56
 '''
