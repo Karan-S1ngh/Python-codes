@@ -7,7 +7,7 @@
 
 l = ['Karan', 'Ramesh', 'Mahesh', 'Suresh', 'Ram']
 
-# Our aim is to create a string, from above list, joining all of its content, separated by 'and
+# Our aim is to create a string, from above list, joining all of its content, separated by 'and'
 
 sentence = ' and ' . join(l)
 print("1 :",sentence)
@@ -18,13 +18,21 @@ print("2 :",sentence)
 
 
 l = {'Mango', 'Grapes', 'Apple', 'Banana'}
-
 example = '\n'.join(l)
 print("3 :")
 print(example)
 
 
 print("4 :",type(example))
+
+
+l = [str(i*7) for i in range (1,6)]
+print("5 :",l)
+# here we need to typecaste to string because join method can only be used with strings
+vertical_table = '\n'.join(l)
+print("6 :")
+print(vertical_table)
+# made a list of multiple of 7 then printed it vertically
 
 
 
@@ -38,4 +46,11 @@ Grapes
 Mango
 Banana
 4 : <class 'str'>
+5 : ['7', '14', '21', '28', '35']
+6 :
+7
+14
+21
+28
+35
 '''
