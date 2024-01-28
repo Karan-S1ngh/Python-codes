@@ -46,30 +46,42 @@ c = [1,2,[3,4,5],6]
 c[2][1] = 9
 print("15 :",c)
 
-# Taking list input from user
-a = input("Enter the list(separated by comma) : ").split(",")
-# if u dont mention split then all will be considered a single input
-print("16 :",a)
 
 a = [1,2,3]
 b = [4,5,6]
-print("17 :",a+b)
+print("16 :",a+b)
 # adds two lists
 # we cannot subtract two lists
 
 a = [1,2,3]
 b = [4,5,6]
-print("18 :",a*3)
+print("17 :",a*3)
 # prints list a 3 times
 
 a = [1,2,3]
 b = [4,5,6]
-print("19 :",3 in a)
+print("18 :",3 in a)
 # prints True if 3 is present in list a
 # prints False if 3 is not present in list a
-
+# we can use not in also
 
 # we can use all the operators we used in string in list also
+
+
+# Taking list input from user
+print()
+a = input("Enter the list(separated by comma) : ").split(",")
+# if u dont mention split then all will be considered a single input
+print("19 :",a)
+
+# another way to take list input from user
+print()
+a = []
+n = int(input("Enter number of elements : "))
+for i in range(n):
+    x = input(f"Enter {i} index element : ")
+    a.append(x)
+print("20 :",a)
 
 
 
@@ -90,9 +102,18 @@ print("19 :",3 in a)
 13 : [1, 2, [3, 4, 5], 6]
 14 : [3, 4, 5]
 15 : [1, 2, [3, 9, 5], 6]
+16 : [1, 2, 3, 4, 5, 6]
+17 : [1, 2, 3, 1, 2, 3, 1, 2, 3]
+18 : True
+
 Enter the list(separated by comma) : 2,29,karan,t
-16 : ['2', '29', 'karan', 't']
-17 : [1, 2, 3, 4, 5, 6]
-18 : [1, 2, 3, 1, 2, 3, 1, 2, 3]
-19 : True
+19 : ['2', '29', 'karan', 't']
+
+Enter number of elements : 5
+Enter 0 index element : hello
+Enter 1 index element : 5
+Enter 2 index element : ramesh
+Enter 3 index element : www.hello.com
+Enter 4 index element : 29.02
+20 : ['hello', '5', 'ramesh', 'www.hello.com', '29.02']
 '''
