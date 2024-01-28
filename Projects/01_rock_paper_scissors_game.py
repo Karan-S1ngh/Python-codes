@@ -5,18 +5,18 @@
 def game(user_choice, computer_choice):
     if user_choice == computer_choice:
         print("It's a tie!")
-    elif user_choice == "rock":
-        if computer_choice == "paper":
+    elif user_choice == "r":
+        if computer_choice == "p":
             print("Computer wins!")
         else:
             print("You win!")
-    elif user_choice == "paper":
-        if computer_choice == "scissors":
+    elif user_choice == "p":
+        if computer_choice == "s":
             print("Computer wins!")
         else:
             print("You win!")
-    elif user_choice == "scissors":
-        if computer_choice == "rock":
+    elif user_choice == "s":
+        if computer_choice == "r":
             print("Computer wins!")
         else:
             print("You win!")
@@ -28,10 +28,10 @@ def game(user_choice, computer_choice):
 def Program():
     # Computer choice
     import random
-    c = random.choice(["rock", "paper", "scissors"])
+    c = random.choice(["r", "p", "s"])
 
     # User input
-    u = input("Please choose rock, paper or scissors: ")
+    u = input("Please choose r (rock), p (paper) or s (scissors): ")
 
     # Print user choice
     print("Your choice: " + u)
@@ -45,20 +45,21 @@ def Program():
 
 # Welcome message
 print()
-print("Welcome to the Rock Paper Scissors game!")
+print("Welcome to the Rock, Paper and Scissors game!")
 print()
 
 
-# Asking user to continue or stop
+# Program with asking user to continue or stop
 while True:
     Program()
     print()
-    q = input("Do you want to continue? (y/n): ")
-    if q == "n":
-        break
-    else:
+    q = input("If you want to continue type 'y': ")
+    # if the user enters anything other than y then the loop will break
+    if q == "y":
         print()
         continue
+    else:
+        break
     
     
 # Exit message
@@ -85,33 +86,33 @@ print()
 
 Welcome to the Rock Paper Scissors game!
 
-Please choose rock, paper or scissors: hello
+Please choose r (rock), p (paper) or s (scissors): hello
 Your choice: hello
-Computer choice: paper
+Computer choice: p
 Please enter a valid move!
 
-Do you want to continue? (y/n): y
+"If you want to continue type 'y': y
 
-Please choose rock, paper or scissors: rock
-Your choice: rock
-Computer choice: scissors
+Please choose r (rock), p (paper) or s (scissors): r
+Your choice: r
+Computer choice: s
 You win!
 
-Do you want to continue? (y/n): y
+"If you want to continue type 'y': y
 
-Please choose rock, paper or scissors: paper
-Your choice: paper
-Computer choice: paper
+Please choose r (rock), p (paper) or s (scissors): p
+Your choice: p
+Computer choice: p
 It's a tie!
 
-Do you want to continue? (y/n): y
+"If you want to continue type 'y': y
 
-Please choose rock, paper or scissors: scissors
-Your choice: scissors
-Computer choice: rock
+Please choose r (rock), p (paper) or s (scissors): s
+Your choice: s
+Computer choice: r
 Computer wins!
 
-Do you want to continue? (y/n): n
+"If you want to continue type 'y': no
 
 Thanks for playing!
 
