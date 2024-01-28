@@ -83,6 +83,8 @@ for i in range(n):
     a.append(x)
 print("20 :",a)
 
+# similarly we can take tuple input from user, set input from user, dictionary input from user
+
 
 
 
