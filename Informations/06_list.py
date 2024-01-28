@@ -51,6 +51,27 @@ a = input("Enter the list(separated by comma) : ").split(",")
 # if u dont mention split then all will be considered a single input
 print("16 :",a)
 
+a = [1,2,3]
+b = [4,5,6]
+print("17 :",a+b)
+# adds two lists
+# we cannot subtract two lists
+
+a = [1,2,3]
+b = [4,5,6]
+print("18 :",a*3)
+# prints list a 3 times
+
+a = [1,2,3]
+b = [4,5,6]
+print("19 :",3 in a)
+# prints True if 3 is present in list a
+# prints False if 3 is not present in list a
+
+
+# we can use all the operators we used in string in list also
+
+
 
 
 '''OUTPUT
@@ -71,4 +92,7 @@ print("16 :",a)
 15 : [1, 2, [3, 9, 5], 6]
 Enter the list(separated by comma) : 2,29,karan,t
 16 : ['2', '29', 'karan', 't']
+17 : [1, 2, 3, 4, 5, 6]
+18 : [1, 2, 3, 1, 2, 3, 1, 2, 3]
+19 : True
 '''

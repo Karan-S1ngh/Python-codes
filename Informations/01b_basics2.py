@@ -8,7 +8,6 @@ print("2  :",abs(-4))
 
 print("3  :",round(3.141592653589793))
 # prints round figure of the given number
-
 print("4  :",round(6.999999999,4))
 # prints round figure of the given number till 2 decimal places
 
@@ -100,6 +99,24 @@ print("21 :",a>>2)
 # Bitwise operations are performed on binary numbers
 
 
+a = complex(3,4)
+print("22 :",a)
+# prints the complex number of the given numbers
+# 3 is the real part and 4 is the imaginary part
+# 3 + 4i is the complex number
+print("23 :",a.real)
+# prints the real part of the given complex number
+print("24 :",a.imag)
+# prints the imaginary part of the given complex number
+print("25 :",a.conjugate())
+# prints the conjugate of the given complex number
+# conjugate of 3 + 4i is 3 - 4i
+print("26 :",abs(a))
+# prints the absolute value of the given complex number
+# absolute value of 3 + 4i is 5
+print("27 :",type(a))
+
+
 
 
 '''OUTPUT
@@ -108,8 +125,8 @@ print("21 :",a>>2)
 3  : 3
 4  : 7.0
 5  : 7.0000
-Enter a : 1011
-6  : 11
+Enter a : 10110
+6  : 22
 7  : Karan and Ram and Shyam
 8  : 0b1010
 9  : 0o12
@@ -125,4 +142,10 @@ Enter a : 1011
 19 : -11
 20 : 40
 21 : 2
+22 : (3+4j)
+23 : 3.0
+24 : 4.0
+25 : (3-4j)
+26 : 5.0
+27 : <class 'complex'>
 '''

@@ -78,6 +78,14 @@ print("16 :",min(n))
 # prints minimum element of list
 
 
+a = [1,2,3]
+b = [4,5,6]
+print("17 :", a == b)
+# prints True if both lists are equal
+# prints False if both lists are not equal
+# if one list is subset of other then also False will be printed
+
+
 # printing methods like append, pop, etc were giving error as they were doing operation
 # printing methods like length, index, etc are producing output bcz they are not performing operation 
 # they are returning a certain integer value
@@ -105,4 +113,5 @@ print("16 :",min(n))
 14 : 150.7
 15 : 63
 16 : 1
+17 : False
 '''

@@ -19,6 +19,10 @@ print("3 :",type(a))
 # This eill print type as set
 
 
+# to convert list to set
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+b = set(a)
+# similarly we can convert tuple to set, tuple to list, list to tuple, set to tuple, set to list
 
 
 
