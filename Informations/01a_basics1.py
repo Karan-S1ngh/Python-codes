@@ -47,12 +47,13 @@ print("6  :",14>7)     # will print true if correct and false if incorrect
 print("7  :",not h)
 print("8  :",not g)
 print("9  :",not f) 
-print("10 :",f and h) 
-print("11 :",f or h)     
+print("10 :",f and h)           # and = true if both operands are true else false
+print("11 :",f or h)            # or = true if any one operand is true else false
 print("12 :",f and g)
 print("13 :",f or g)
 print("14 :",h and g)   
-print("15 :",h or g)   
+print("15 :",h or g)
+# we can use & in place of and and | in place of or   
 
 print("16 :",int(e))          # typecasting
 print("17 :",int("33"))       # string to integer
@@ -63,8 +64,10 @@ print("19 : Name is ",i)
 print("20 :",type(i))
 # It stores the input taken in form of a string
 
-# i = int(i)       
+# i = int(i) or i = int(input("Enter number"))     
 # This makes the input i to be int only
+# to make it float only use float instead of int 
+# same for other datatypes
 
 # int('32') = 32
 # String to int conversion

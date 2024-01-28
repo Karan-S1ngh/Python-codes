@@ -34,6 +34,17 @@ name = 'Shree'
 print("7 :",name[:4])
 # prints character from first index till 4th index
 
+name = 'Karan'
+print("8 :",name[::-1])
+# prints string in reverse order
+# string.reverse() doesnt exist
+# so we use this method
+
+name = 'Hello, Hi'
+print("9 :",name[5::-1])
+# prints string in reverse order from 5th index
+
+
 
 
 '''OUTPUT
@@ -44,4 +55,6 @@ print("7 :",name[:4])
 5 : aisee
 6 : ari
 7 : Shre
+8 : naraK
+9 : ,olleH
 '''

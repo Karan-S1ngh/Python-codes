@@ -20,6 +20,9 @@ print("3 :",type(a))
 
 
 
+
+
+
 '''OUTPUT
 1 : <class 'set'>
 2 : <class 'dict'>

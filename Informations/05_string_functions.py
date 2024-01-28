@@ -38,6 +38,18 @@ print("9 :",n.strip())
 # rstrip removes the extra spaces from right side
 # lstrip removes the extra spaces from left side
 
+n = 'Karan'
+s = slice(3)
+print("10 :",n[s])
+# slice is used to slice a string
+# it takes 3 arguments
+# 1st is starting index
+# 2nd is ending index
+# 3rd is step size
+# if u give only one argument then it will take it as ending index
+# if u give two arguments then it will take it as starting and ending index
+# if u give three arguments then it will take it as starting, ending and step size
+
 
 
 
@@ -52,4 +64,5 @@ Enter name : Karan
 7 : hello "Karan", how are u
 8 :     Hello,   I am    Karan
 9 : Hello,   I am    Karan
+10 : Kar
 '''
