@@ -17,6 +17,8 @@ print("9. Capitalizing both strings :","String 1 = ",a.capitalize(),", String 2 
 
 
 '''OUTPUT
+Enter First String : Suresh
+Enter Second String : Ramesh
 1. Concatenation : SureshRamesh
 2. Reversal : String 1 =  hseruS , String 2 = hsemaR
 3. Slicing Till 3rd Character: String 1 =  Sur , String 2 =  Ram
@@ -25,4 +27,5 @@ print("9. Capitalizing both strings :","String 1 = ",a.capitalize(),", String 2 
 6. 3 times Repetition : String 1 =  SureshSureshSuresh , String 2 =  RameshRameshRamesh
 7. Finding count of 'a' in both strings : String 1 =  0 , String 2 =  1
 8. Replacing 'a' with 'b' in both strings : String 1 =  Suresh , String 2 =  Rbmesh
-9. Capitalizing both strings : String 1 =  Suresh , String 2 =  Ramesh'''
+9. Capitalizing both strings : String 1 =  Suresh , String 2 =  Ramesh
+'''

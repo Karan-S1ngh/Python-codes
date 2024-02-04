@@ -1,4 +1,13 @@
-# to comment out multiple together using # then use (ctrl+/)
+'''
+to run a python file in terminal use the command "python filename.py" 
+but first go to the directory where the file is located using "cd" command or include the path of the file in the command
+to run this file use the command "python Information/01a_basics1.py" in terminal
+or first using "cd" command go to the "Information" folder and then use "python 01a_basics1.py"
+or use "Run Python File in Terminal" in vs code or pycharm
+'''
+
+
+# # to comment out multiple together using # then use (ctrl+/)
 
 # This is a single line comment 
 
