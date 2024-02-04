@@ -117,6 +117,24 @@ print("26 :",abs(a))
 print("27 :",type(a))
 
 
+a = 10
+b = 20
+print("28 :",a+b)
+# adding two numbers
+# result will be the sum of the two numbers
+
+a="Karan"
+b="Singh"
+print("29 :",a+b)
+# adding two strings
+# result will be the concatenation of the two strings
+
+string = '10'
+num = 20
+print("30 :",int(string)+num)
+# adding a string after typecasting it into a number and a number
+
+
 
 
 '''OUTPUT
@@ -148,4 +166,7 @@ Enter a : 10110
 25 : (3-4j)
 26 : 5.0
 27 : <class 'complex'>
+28 : 30
+29 : KaranSingh
+30 : 30
 '''

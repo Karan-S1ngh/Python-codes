@@ -44,6 +44,18 @@ name = 'Hello, Hi'
 print("9 :",name[5::-1])
 # prints string in reverse order from 5th index
 
+name = 'Something'
+print("10 :",name[::])
+# prints whole string
+
+name = 'Something'
+print("11 :",name[0 : len(name) - 3])
+# prints string from 0th index to 3rd last index
+
+name = 'Nothing'
+print("12 :",name[-4 : -1])
+# prints string from 4th last index to 1st last index
+
 
 
 
@@ -57,4 +69,7 @@ print("9 :",name[5::-1])
 7 : Shre
 8 : naraK
 9 : ,olleH
+10 : Something
+11 : Someth
+12 : hin
 '''

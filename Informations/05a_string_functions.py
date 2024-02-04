@@ -1,4 +1,4 @@
-# String Functions
+# String Functions/Methods
 
 name = 'Karan is chilling'
 print("1 :",len(name))               
@@ -11,10 +11,11 @@ print("3 :",name.count('a'))
 # gives how many time the given character has appeared in the string
 
 
-new = 'hello how are u'
+new = 'hello How are u'
 
 print("4 :",new.capitalize())
 # this makes the first character of the string capital
+# also makes all other capital characters small
 
 print("5 :",new.find('ll'))
 # this finds the given character in the string and gives the index of first occurence
@@ -50,6 +51,39 @@ print("10 :",n[s])
 # if u give two arguments then it will take it as starting and ending index
 # if u give three arguments then it will take it as starting, ending and step size
 
+n = 'hello'
+print("11 :",n.upper())
+# this makes all the characters of the string capital
+
+n = 'HELLO'
+print("12 :",n.lower())
+# this makes all the characters of the string small
+
+n = 'hello'
+print("13 :",n.islower())
+# this checks whether all the characters of the string are small or not
+
+n = 'HELLO'
+print("14 :",n.isupper())
+# this checks whether all the characters of the string are capital or not
+
+n = 'Hello'
+print("15 :",n.isalpha())
+# this checks whether all the characters of the string are alphabets or not
+
+n = '123'
+print("16 :",n.isdigit())
+# this checks whether all the characters of the string are digits or not
+
+n = 'Hello'
+print("17 :",n.split('l'))
+# this splits the string with the given character
+
+n = 'Hello'
+print("18 :",n.rsplit('l'))
+# this splits the string with the given character from the right side
+# same for left 
+
 
 
 
@@ -65,4 +99,10 @@ Enter name : Karan
 8 :     Hello,   I am    Karan
 9 : Hello,   I am    Karan
 10 : Kar
+11 : HELLO
+12 : hello
+13 : True
+14 : True
+15 : True
+16 : True
 '''
