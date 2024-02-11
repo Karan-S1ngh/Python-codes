@@ -19,9 +19,9 @@ match x:
     case _ if x == 0:
         print("x is 0")
     case _ if x > 5 and x < 10:
-        print("x is not 1, 2, 3, 4, or 5  but less than 10 ")
+        print("x is not 0 to 5  but x is less than 10")
     case _:
-        print("x is not 1, 2, 3, 4, 5, 0, or less than 10")    
+        print("x is not 0 to 5, nor x is less than 10")    
     # case _ is used to match any value(default case)
     # there can be multiple case _ statements in a match case statement
 # here break statement is not required as the match case statement automatically breaks after the first match
@@ -37,8 +37,8 @@ Enter a number: 0
 x is 0
 
 Enter a number: 10
-x is not 1, 2, 3, 4, or 5  but less than 10
+x is not 0 to 5  but x is less than 10
 
 Enter a number: 11
-x is not 1, 2, 3, 4, 5, 0, or less than 10
+x is not 0 to 5, nor x is less than 10
 '''    

@@ -28,6 +28,12 @@ while i < 5:
     i += 1
 else:
     print("Loop ended")
+# the else block is executed when the condition in the while loop becomes false
+
+# do while loop is not present in python
+# but we can achieve the same functionality using while loop
+
+
 
 
 '''OUTPUT
