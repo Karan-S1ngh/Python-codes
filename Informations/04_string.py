@@ -57,6 +57,14 @@ print("12 :",name[-4 : -1])
 # prints string from 4th last index to 1st last index
 
 
+# to know negative indexing for eg, -1
+# we can simple write it len(name) - 1
+name = 'Something'
+print("13 :",name[- 1])
+print("14 :",name[len(name) - 1])
+# above two will give the same output
+
+
 
 
 '''OUTPUT
@@ -72,4 +80,6 @@ print("12 :",name[-4 : -1])
 10 : Something
 11 : Someth
 12 : hin
+13 : g
+14 : g
 '''

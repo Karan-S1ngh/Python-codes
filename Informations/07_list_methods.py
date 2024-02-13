@@ -86,6 +86,28 @@ print("17 :", a == b)
 # if one list is subset of other then also False will be printed
 
 
+l = [35,6,67,1,45.7]
+# to copy we cant use m = l as it will change both the lists
+m = l.copy()
+# copies the list
+# if u change m then l will not change and vice versa
+m[0] = 100
+print("18 :",l)
+print("19 :",m)
+
+
+l = [35,67,1,45.7]
+print("20 :",l)
+m = [100,6]
+l.extend(m)
+# prints the content of m at the end of l
+print("21 :",l)
+# this changes the list
+# if u use k = l + m then it will not change the original list
+# rather it will create a new list and store the result in it
+
+
+
 # printing methods like append, pop, etc were giving error as they were doing operation
 # printing methods like length, index, etc are producing output bcz they are not performing operation 
 # they are returning a certain integer value
@@ -114,4 +136,8 @@ print("17 :", a == b)
 15 : 63
 16 : 1
 17 : False
+18 : [35, 6, 67, 1, 45.7]
+19 : [100, 6, 67, 1, 45.7]
+20 : [35, 67, 1, 45.7]
+21 : [35, 67, 1, 45.7, 100, 6]
 '''
