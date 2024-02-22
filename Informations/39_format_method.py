@@ -22,7 +22,8 @@ print("3 :",a)
 # hello is not called so wont be printed
 
 skill = 'playing games'
-a = '{} is {}'.format("Ram",skill)
+m = '{} is {}'
+a = m.format("Ram",skill)
 print("4 :",a)
 
 
@@ -34,6 +35,13 @@ a = f'{name} is good at {skill}'
 print("5 :",a)
 
 
+# to take only certain decimal places
+a = 3.14159
+print("6 : {:.2f}".format(a))
+
+print("7 : {b:.3f}".format(b = 5.99753134555))
+
+
 
 
 '''OUTPUT
@@ -42,4 +50,6 @@ print("5 :",a)
 3 : Ram is a good learner
 4 : Ram is playing games
 5 : Ram is good at Listening
+6 : 3.14
+7 : 5.998
 '''
