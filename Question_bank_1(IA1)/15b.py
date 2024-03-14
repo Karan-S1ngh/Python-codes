@@ -10,7 +10,6 @@ for i in range(rows):
 
 '''OUTPUT
 Enter the number of rows : 6
-Enter the number of rows : 6
 
 1
 2 2
